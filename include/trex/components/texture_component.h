@@ -1,0 +1,11 @@
+#ifndef _HOME_TRIXTER_CLIONPROJECTS_GAMEPROJECTESC_INCLUDE_TREX_COMPONENTS_TEXTURE_COMPONENT_H_
+#define _HOME_TRIXTER_CLIONPROJECTS_GAMEPROJECTESC_INCLUDE_TREX_COMPONENTS_TEXTURE_COMPONENT_H_
+#include <lib/ecs/component.h>
+
+class TextureComponent : public IComponent {
+ public:
+  char symbol_;
+
+  explicit TextureComponent(char symbol) : symbol_(symbol) {}
+};
+#endif  // _HOME_TRIXTER_CLIONPROJECTS_GAMEPROJECTESC_INCLUDE_TREX_COMPONENTS_TEXTURE_COMPONENT_H_
